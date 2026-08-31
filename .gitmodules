@@ -1,0 +1,3 @@
+[submodule "youtube-ad-qwen3omni"]
+	path = youtube-ad-qwen3omni
+	url = https://github.com/surrey-nlp/youtube-ad-qwen3omni.git
