@@ -20,18 +20,18 @@ This research investigates the automatic generation of audio descriptions for co
 ## Repository Structure
 
  code/
-   01_data_collection.ipynb     — YouTube Data API collection pipeline
-   02_gemini_generation.ipynb   — Gemini 3.5 Flash description generation
-   03_evaluation.ipynb          — BERTScore + GPT-4o judge evaluation
+   01_data_collection.ipynb     - YouTube Data API collection pipeline
+   02_gemini_generation.ipynb   - Gemini 3.5 Flash description generation
+   03_evaluation.ipynb          - BERTScore + GPT-4o judge evaluation
 
  prompts/
-   zero_shot_prompt.txt         — Zero-shot prompting strategy
-   five_shot_prompt.txt         — Five-shot prompting strategy
-   llm_judge_prompt.txt         — GPT-4o judge evaluation prompt
+   zero_shot_prompt.txt         - Zero-shot prompting strategy
+   five_shot_prompt.txt         - Five-shot prompting strategy
+   llm_judge_prompt.txt         - GPT-4o judge evaluation prompt
 
- youtube-ad-qwen3omni/        — Qwen3 Omni generation code (submodule)
+ youtube-ad-qwen3omni/        - Qwen3 Omni generation code (submodule)
 
-requirements.txt                — Required Python libraries
+requirements.txt                - Required Python libraries
 
 ---
 
@@ -86,6 +86,10 @@ Add all API keys to Google Colab Secrets before running!
 ## Dataset
 
 - Total videos: 467 cooking YouTube Shorts
+(Dataset is currently private 
+pending academic publication.
+Will be released upon paper 
+acceptance at NLP/CV conference)
 - Channels: 17 YouTube channels
 - Duration: 60 to 180 seconds per video
 - Descriptions: 4 sets of AI descriptions per video
@@ -104,5 +108,5 @@ https://github.com/surrey-nlp/youtube-ad-qwen3omni
 ## Acknowledgements
 
 - Dr Diptesh Kanojia - Project supervision
-- University of Surrey AI Cluster — GPU resources for Qwen3 Omni
+- University of Surrey AI Cluster - GPU resources for Qwen3 Omni
 - Google AI Studio - Gemini 3.5 Flash API access
