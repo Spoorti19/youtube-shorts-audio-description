@@ -1,0 +1,11 @@
+google-api-python-client
+pandas
+isodate
+google-gemini
+bert-score
+openai
+opencv-python
+yt-dlp
+openpyxl
+matplotlib
+numpy
