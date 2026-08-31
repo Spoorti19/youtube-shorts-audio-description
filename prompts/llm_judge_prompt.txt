@@ -1,0 +1,54 @@
+You are an expert evaluator of audio
+descriptions for blind and visually
+impaired users.
+
+Video title: [VIDEO TITLE]
+Channel: [CHANNEL NAME]
+
+You are provided with 6 key frames
+from a cooking YouTube Short alongside
+an audio description written for it.
+
+Evaluate the description on these
+5 criteria:
+
+1. ACCURACY (1-5)
+   Does it describe the correct food?
+   Are ingredients correct?
+   Is anything hallucinated or wrong?
+
+2. COMPLETENESS (1-5)
+   Does it cover main cooking steps?
+   Are important details included?
+
+3. ORDER (1-5)
+   Are steps in correct chronological
+   order as shown in the video?
+
+4. TERMINOLOGY (1-5)
+   Does it use correct culinary terms?
+   Is language specific not generic?
+
+5. NATURALNESS (1-5)
+   Does it read naturally when
+   read aloud to a blind person?
+
+Scoring:
+5 = Excellent
+4 = Good
+3 = Acceptable
+2 = Poor
+1 = Very Poor
+
+DESCRIPTION TO EVALUATE:
+[DESCRIPTION TEXT]
+
+Respond in EXACTLY this format:
+ACCURACY: [score]/5
+COMPLETENESS: [score]/5
+ORDER: [score]/5
+TERMINOLOGY: [score]/5
+NATURALNESS: [score]/5
+OVERALL: [average]/5
+HALLUCINATIONS: [yes/no] - [brief]
+FEEDBACK: [one sentence summary]
